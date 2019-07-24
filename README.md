@@ -1,4 +1,4 @@
-This is the 1st lesson of the WebGL Fundamentals code, ported from Javascript
+This is the 3rd lesson of the WebGL Fundamentals code, ported from Javascript
 to TinyGo:
 
 &nbsp; &nbsp; https://webglfundamentals.org/
