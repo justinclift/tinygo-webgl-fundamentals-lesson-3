@@ -90,7 +90,7 @@ func main() {
 		80, 20,
 		80, 30,
 	}
-	positions := js.TypedArrayOf(positionsNative)
+	positions := webgl.SliceToTypedArray(positionsNative)
 	gl.BufferData(webgl.ARRAY_BUFFER, positions, webgl.STATIC_DRAW)
 
 	// * WebGL rendering code *
